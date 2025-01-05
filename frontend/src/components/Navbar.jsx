@@ -2,6 +2,10 @@ import React, { useContext, useState } from 'react'
 import {assets} from '../assets/assets'
 import { Link, NavLink, useNavigate } from 'react-router-dom'
 import { ShopContext } from '../context/ShopContext'
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0762e60bbfb360197b29ce80607c3ea2c4d74282
 function Navbar() {
 const [display,setdisplay]=useState(false)
 const navigate=useNavigate()
